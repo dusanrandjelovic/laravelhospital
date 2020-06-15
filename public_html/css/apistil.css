@@ -1,0 +1,42 @@
+#prvideo {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    padding: 2% 0;
+}
+input {
+    padding: 12px;
+}
+#dugme {
+    margin-left: 0.5%;
+    background-color: blue;
+    padding: 10px 16px;
+    color:  white;
+    border-radius: 8px;
+    border-width: inherit;
+}
+
+#drugideo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7% 0;
+}
+.grad {
+    color: red;
+    font-size: 35px;
+}
+#podacilevo {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+section div{
+    display: flex;
+    justify-content: space-around;
+}
+#sutra{
+    display: flex;
+    flex-direction: column;
+}

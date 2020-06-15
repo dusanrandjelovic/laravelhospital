@@ -1,0 +1,13 @@
+#formakon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #inputkon {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em;
+    color: #DB9423;
+  }

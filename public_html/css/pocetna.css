@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: whitesmoke;
+    text-align: center;
+       background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), url("../img/pozadina.jpg");
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+       width: 100%;
+  }
+
+  .bg-white {
+      background: linear-gradient(45deg,#353d47,#21292e) !important;
+  }
+
+  .navbar a {
+     color: white !important;
+     text-decoration: none;
+     background-color: transparent;
+  }
+  .dropdown-menu {
+    background:  linear-gradient(45deg,#353d47,#21292e) !important;
+  }
+  .dropdown-item:hover {
+    background-color: black !important;
+  }
+  .btn-primary {
+    background-color: grey !important;
+    border-color: grey !important;
+  }
+
+  .navbar-toggler {
+    background-color: white !important;
+  }
+
+  .row {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-right: 10px!important;
+      margin-left: 10px!important;
+  }
+
+         .panel-heading {
+           padding: 30px 15px;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+         }
+         .editstr {
+           margin-bottom: 40px;
+         }
+             @media (min-width: 768px) {
+  .navbar-right {
+      float: right!important;
+      margin-right: 0px!important;
+  }
+  }
